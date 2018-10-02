@@ -1,0 +1,4 @@
+baseURL = "https://blog1.naveeraashraf.com/"
+languageCode = "en-us"
+title = "Blog | Naveera Ashraf"
+theme = "hugo-paper"
