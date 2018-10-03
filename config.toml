@@ -1,15 +1,39 @@
-baseURL = "https://blog1.naveeraashraf.com/"
+baseURL = "https://blog.naveeraashraf.com/"
 languageCode = "en-us"
 title = "Blog | Naveera Ashraf"
 theme = "hugo-paper"
 
+pygmentsCodeFences = true
+
+disqusShortname = "blog-naveeraashraf-com" #Disqus shortname
+googleAnalytics = "" #Google Analytics ID
+
+[author]
+    name = "Naveera Ashraf"       #Author name
+    github = "nqcm"     #Github username
+    twitter = "niqabicodermum"    #Twitter username
+    instagram = "https://www.instagram.com/niqabi.coder.mum/"  #Instagram username
+
+
+[params]
+	# General information
+	author = "Naveera Ashraf"
+	description = "An autodidact's journey in computer science and programming."
+	tagline ="An autodidact's journey in computer science and programming."
+
 [[menu.main]]
-	name   = "About"
+	name   = "naveeraashraf.com"
+    # pre = "<i class='fa fa'-heart'></i>"
+	url    = "https://naveeraashraf.com"
+	weight = -10
+
+[[menu.main]]
+	name   = "About Me"
     # pre = "<i class='fa fa'-heart'></i>"
 	url    = "https://naveeraashraf.com"
 	weight = 10
 
 [[menu.main]]
-	name   = "Posts"
+	name   = "Blog"
 	url    = "/"
 	weight = 20
